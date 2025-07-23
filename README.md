@@ -22,25 +22,32 @@ This Python script helps organize Zoom recordings into session folders based on 
 
 ## Usage
 
+Make sure your schedule is correctly defined inside the script, then run:
+
 ```bash
-python3 organize_zoom_recordings.py
+python organize_zoom_recordings.py
 ```
 
 For a test run without moving files:
 
 ```bash
-python3 organize_zoom_recordings.py --dry-run
+python organize_zoom_recordings.py --dry-run
 ```
+
+Optional arguments:
+
+- `--source PATH`: Path to the folder containing Zoom recordings (default: current directory)
+- `--schedule PATH`: Path to the schedule file (CSV or JSON, optional if defined in script)
+- `--dry-run`: Run without making any actual changes
 
 ## Requirements
 
 - Python 3.8+
-- Your Zoom recordings must have standard timestamps in the filename.
-- Your schedule must be accurately defined inside the script.
+- Zoom recordings with standard timestamps in filenames.
+- A schedule dictionary inside the script or an external schedule file.
 
 ## License
 
 MIT License
 
 <p align="center"><b>💡 Crafted with care by <a href="https://github.com/ebram-gerges">Ebram Gerges</a> — Main Contributor 🚀</b></p>
-
