@@ -46,6 +46,11 @@ Optional arguments:
 - Zoom recordings with standard timestamps in filenames.
 - A schedule dictionary inside the script or an external schedule file.
 
+## NOTE !!
+- this script only tested on cachyos(arch linux)
+- if you got any errors please report to <a href="mailto:ebram.gergs.2005#gmail.com">developer</a>
+
+
 ## License
 
 MIT License
